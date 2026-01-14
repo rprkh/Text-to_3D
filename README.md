@@ -1,4 +1,4 @@
-# Text-to_3D
+# Text to 3D
 
 This project implements an end-to-end 3D reconstruction pipeline that begins with image synthesis using a Stable Diffusion text-to-image model. The generated image is then processed using a pretrained monocular depth estimation network to infer scene geometry. The resulting depth map is combined with the synthesized RGB image to form an RGBD representation, which is used to generate and post-process a 3D point cloud and ultimately reconstruct a 3D mesh using Open3D.
 
